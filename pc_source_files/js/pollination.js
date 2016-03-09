@@ -23,7 +23,7 @@ function pollination(data){
     		.interactive();
 	
    	// add instruction text
-   	var instructions = "-Drag around axis to begin brush. -Click axis to clear brush.    -Click a label to color data based on axis values.   -Click on each line or hover on table to highlight."
+   	var instructions = ""
    	d3.select("#wrapper svg").append("text")
    		.text(instructions)
    		//.attr("class", "instructions")
